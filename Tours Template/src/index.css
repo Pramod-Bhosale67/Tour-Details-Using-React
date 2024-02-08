@@ -1,0 +1,111 @@
+/* write your css here */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title{
+    font-size: 3rem;
+    margin: 6vh;
+    border: 7px dashed rgb(1,17,160 );
+    border-radius: 20px;
+    padding: 1vh 5vw;
+}
+
+/* for the cards */
+.cards{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.card{
+    width: 400px;
+    margin: 1rem;
+    padding: 1rem;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    align-items: center;
+    box-shadow: rgba(0,0,0,0.24) 0px 3px 8px;
+}
+
+.img{
+    width: 380px;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+}
+
+.tour-details{
+    margin: 20px 5px;
+}
+
+.tour-price{
+    font-size: 1.3rem;
+    color: green;
+}
+
+.tour-name
+{
+    font-size: 1.5rem;
+}
+
+.read-more{
+    cursor: pointer;
+    color: #12b0e8;
+}
+
+.btn-red{
+    margin-top: 18px;
+    padding: 10px 80px;
+    border: 1px solid #b4161b;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 10px;
+    font-weight: bold;
+    background-color: whitesmoke;
+    transition: 0.2s;
+}
+
+.btn-red:hover{
+    background-color: crimson;
+    color: white;
+}
+
+.refresh{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.btn-white{
+    margin-top: 20px;
+    padding: 10px 80px;
+    background-color: aliceblue;
+    border: none;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.btn-white:hover{
+    background-color: crimson;
+    color: white;
+    border-radius: 30px;
+}
